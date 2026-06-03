@@ -1,0 +1,18 @@
+.search-box {
+    text-align: center;
+}
+
+.search-box button {
+    width: 220px;
+}
+
+@media (max-width: 500px) {
+
+    .search-box input {
+        width: 250px !important;
+    }
+
+    .MuiCard-root {
+        width: 90% !important;
+    }
+}
